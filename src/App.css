@@ -1,0 +1,113 @@
+/* 
+   Global Page Style
+    */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* 
+   App Overlay for Readability
+    */
+.app-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  min-height: 100vh;
+}
+
+/* 
+   Navigation Bar
+    */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #111;
+}
+
+.logo {
+  color: #00bcd4;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #0ac3dc;
+}
+
+/* 
+   Page Content Style
+    */
+.page {
+  padding: 40px;
+  color: rgb(22, 9, 82);
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+/* 
+   Form Style
+    */
+input {
+  padding: 10px;
+  width: 250px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #0920e8cd;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0097a7;
+}
+
+/* 
+   Page Image
+    */
+.about-image {
+  width: 100%;
+  max-width: 450px;   /* resize image here */
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/*
+   Page style
+*/
+.about-text {
+  font-size: 1.05rem;
+  color: #0920e8;
+  text-align: center;
+}
