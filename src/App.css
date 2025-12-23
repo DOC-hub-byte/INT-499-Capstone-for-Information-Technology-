@@ -102,7 +102,6 @@ button:hover {
   border-radius: 6px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
-
 /*
    Page style
 */
@@ -110,4 +109,46 @@ button:hover {
   font-size: 1.05rem;
   color: #0920e8;
   text-align: center;
+}
+/* StreamList items */
+.stream-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.stream-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+  color: #111;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.stream-list li span {
+  cursor: pointer;
+}
+
+/* Completed item */
+.stream-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Icon styling */
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.material-icons {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.material-icons:hover {
+  color: #00bcd4;
 }

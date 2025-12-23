@@ -1,4 +1,4 @@
-/* ===== Global Styles ===== */
+/* Global Styles */
 * {
   box-sizing: border-box;
 }
@@ -16,7 +16,7 @@ body {
   color: #333;
 }
 
-/* ===== Navigation Bar ===== */
+/* Navigation Bar */
 .nav {
   background-color: #0f172a;
   color: #ffffff;
@@ -50,7 +50,7 @@ body {
   text-decoration: underline;
 }
 
-/* ===== Page Container ===== */
+/* Page Container */
 .page {
   background-color: #ebe1e1;
   max-width: 900px;
@@ -60,7 +60,7 @@ body {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
-/* ===== Headings ===== */
+/* Headings */
 .page h1 {
   margin-top: 0;
   color: #1e3a8a;
@@ -76,7 +76,7 @@ body {
   color: #537fc6;
 }
 
-/* ===== Forms ===== */
+/* Forms */
 form {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -106,7 +106,7 @@ button:hover {
   background-color: #1d4ed8;
 }
 
-/* ===== Lists ===== */
+/* Lists */
 ul {
   padding-left: 20px;
 }
@@ -121,13 +121,13 @@ ul ul {
   margin-bottom: 10px;
 }
 
-/* ===== Utility Text ===== */
+/* Utility Text */
 p {
   line-height: 1.6;
   color: #374151;
 }
 
-/* ===== StreamList Background Image ===== */
+/*  StreamList Background Image */
 .streamlist-bg {
   min-height: 100vh;
   background-image: url("public/image/streamlist1.jpg");
@@ -143,7 +143,7 @@ p {
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(21, 21, 21, 0.55);
 }
 
 /* Keep content above overlay */
@@ -152,7 +152,7 @@ p {
   z-index: 1;
 }
 
-/* ===== Responsive Design ===== */
+/* Responsive Design */
 @media (max-width: 600px) {
   .nav {
     flex-direction: column;
