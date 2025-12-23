@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # INT-499-Capstone-for-Information-Technology-
-Week 1 Assignment code 
+Week 2 Assignment code 
 =======
 # Getting Started with Create React App
 
